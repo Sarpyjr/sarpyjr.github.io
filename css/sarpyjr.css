@@ -4,7 +4,6 @@
 }
     
 body {
-    position: relative; 
     font-family: 'Manjari', sans-serif;
 }
 .preview-image {
@@ -158,9 +157,6 @@ font-family: 'Manjari', sans-serif;
 .icon-size {
     color:#333333;
     font-size:60px;
-}
-.grecaptcha-badge {
-	visibility: collapse !important;
 }
 
 @media only screen and (max-width: 991px) {
