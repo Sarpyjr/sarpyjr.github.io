@@ -150,6 +150,12 @@ font-family: 'Titillium Web', sans-serif;
     font-size:80px;
     margin: 20px;
 }
+.icon-size:hover {
+    color:#33cc33;
+    font-size:80px;
+    margin: 20px;
+    text-decoration: none;
+}
 .effect {
     cursor: pointer;
     transition: box-shadow .3s ease-out;
