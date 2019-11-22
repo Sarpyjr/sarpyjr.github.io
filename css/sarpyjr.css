@@ -43,10 +43,7 @@ body {
     text-decoration: none;
 }
 .image01 {
-    background-image: url("img/intro-bg.jpg") !important;
-	background-image: url("../img/intro-bg.jpg") !important;
-    /* background-color: #2D1548; */
-    /* bbackground: linear-gradient(#414141,#FFFFFF); */
+    background-image: url("../img/intro-bg.jpg") !important;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -54,8 +51,7 @@ body {
     background-size: cover;
 }
 .page-header {
-    background-image: url("img/intro-bg.jpg") !important;
-	background-image: url("../img/intro-bg.jpg") !important;
+    background-image: url("../img/intro-bg.jpg") !important;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,7 +82,7 @@ body {
     color:#000000;
 }
 .blog-image-header {        
-    background-image: url("http://sarpyjr.com/img/intro-bg.jpg") !important;
+    background-image: url("../img/intro-bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,9 +146,20 @@ background-color: #000000;
 font-family: 'Titillium Web', sans-serif;
 }
 .icon-size {
-    color:#333333;
-    font-size:60px;
+    color:#b4b4b4;
+    font-size:80px;
+    margin: 20px;
 }
+.effect {
+    cursor: pointer;
+    transition: box-shadow .3s ease-out;
+  }
+  .effect:hover {
+    box-shadow:
+      0 2px 2px #33cc33,
+      0 4px 4px #33cc33,
+      0 8px 8px #33cc33;
+  }
 
 @media only screen and (max-width: 991px) {
     h3 {
